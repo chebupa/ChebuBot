@@ -1,13 +1,11 @@
-// serverConfig
+import { inputServerConfig } from "../tools/inputServerConfig/inputServerConfig.js"
 
-// module.exports = {
-//     host: '127.0.0.1',
-//     port: 55514,
-//     version: '1.20.1',
-// }
+
+const config = inputServerConfig()
+
 
 export const serverConfig = {
-    host: '127.0.0.1',
-    port: 55514,
-    version: '1.20.1',
+    host: config.host,
+    port: config.port,
+    version: config.version,
 }

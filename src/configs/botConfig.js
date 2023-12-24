@@ -1,13 +1,11 @@
-// botConfig
+import { inputBotConfig } from "../tools/inputBotConfig/inputBotConfig.js"
 
-// module.exports = {
-//     auth: 'microsoft',
-//     username: 'ChebuBot',
-//     password: '12345678',
-// }
+
+const config = inputBotConfig()
+
 
 export const botConfig = {
     auth: 'microsoft',
-    username: 'ChebuBot',
-    password: '12345678',
+    username: config.username,
+    password: config.password,
 }
