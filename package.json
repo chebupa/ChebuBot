@@ -2,14 +2,24 @@
   "name": "chebubot",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mineflayer": "^4.14.0"
+    "console-colors": "^1.0.1",
+    "mineflayer": "^4.14.0",
+    "mineflayer-armor-manager": "^2.0.1",
+    "node-console-colors": "^1.1.5",
+    "open": "^10.0.1",
+    "prismarine-viewer": "^1.26.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
