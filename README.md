@@ -2,7 +2,7 @@
  ChebuBot - minecraft multifunctional bot
 
 
-To turn "Console log colors list on every startup"
+To hide "Console log colors list on every startup"
 1) go to node_modules/node-console-colors/index.js
 2) find this part of code:
     if (!module.parent) {
